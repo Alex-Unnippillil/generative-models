@@ -181,7 +181,7 @@ guidance.
 For large scale training we recommend using the datapipelines from our [datapipelines](https://github.com/Stability-AI/datapipelines) project. The project is contained in the requirement and automatically included when following the steps from the [Installation section](#installation).
 Small map-style datasets should be defined here in the repository (e.g., MNIST, CIFAR-10, ...), and return a dict of
 data keys/values,
-e.g.,
+e.g.
 
 ```python
 example = {"jpg": x,  # this is a tensor -1...1 chw
